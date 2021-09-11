@@ -9,12 +9,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #222831 !important;
+  background-color: #212121 !important;
   color: #EEEEEE !important;
-}
-
-body hr {
-  color: #FFD369;
 }
 
 .button {
@@ -31,24 +27,24 @@ body hr {
 }
 
 .button-black {
-  background-color: #222831;
+  background-color: #212121;
 }
 
 .button-light-black {
-  background-color: #393E46;
+  background-color: #323232;
 }
 
-.button-yellow {
-  background-color: #FFD369;
+.button-teal {
+  background-color: #14FFEC;
 }
 
 .button-grey {
   background-color: #EEEEEE;
-  color: #222831;
+  color: #212121;
 }
 
-.button-primary {
-  background-color: #39A9CB;
+.button-dark-teal {
+  background-color: #0D7377;
 }
 
 .button-pink {
@@ -69,18 +65,18 @@ body hr {
 }
 
 .soft-black {
-  background-color: #222831;
-  color: #222831;
+  background-color: #212121;
+  color: #212121;
 }
 
 .soft-light-black {
-  background-color: #393E46;
-  color: #393E46;
+  background-color: #323232;
+  color: #323232;
 }
 
-.soft-yellow {
-  background-color: #FFD369;
-  color: #FFD369;
+.soft-teal {
+  background-color: #14FFEC;
+  color: #14FFEC;
 }
 
 .soft-grey {
@@ -88,9 +84,9 @@ body hr {
   color: #EEEEEE;
 }
 
-.soft-primary {
-  background-color: #39A9CB;
-  color: #39A9CB;
+.soft-dark-teal {
+  background-color: #0D7377;
+  color: #0D7377;
 }
 
 .soft-pink {
@@ -111,30 +107,30 @@ body hr {
 }
 
 .outline-black {
-  color: #222831;
-  border: 1px solid #222831;
+  color: #212121;
+  border: 1px solid #212121;
 }
 
 .outline-black:hover {
-  background-color: #222831;
+  background-color: #212121;
 }
 
 .outline-light-black {
-  color: #393E46;
-  border: 1px solid #393E46;
+  color: #323232;
+  border: 1px solid #323232;
 }
 
 .outline-light-black:hover {
-  background-color: #393E46;
+  background-color: #323232;
 }
 
-.outline-yellow {
-  color: #FFD369;
-  border: 1px solid #FFD369;
+.outline-teal {
+  color: #14FFEC;
+  border: 1px solid #14FFEC;
 }
 
-.outline-yellow:hover {
-  background-color: #FFD369;
+.outline-teal:hover {
+  background-color: #14FFEC;
 }
 
 .outline-grey {
@@ -146,13 +142,13 @@ body hr {
   background-color: #EEEEEE;
 }
 
-.outline-primary {
-  color: #39A9CB;
-  border: 1px solid #39A9CB;
+.outline-dark-teal {
+  color: #0D7377;
+  border: 1px solid #0D7377;
 }
 
-.outline-primary:hover {
-  background-color: #39A9CB;
+.outline-dark-teal:hover {
+  background-color: #0D7377;
 }
 
 .outline-pink {
@@ -205,19 +201,19 @@ body hr {
 }
 
 .card_dark {
-  background-color: #222831;
+  background-color: #212121;
 }
 
 .card_light {
-  background-color: #393E46;
+  background-color: #323232;
 }
 
 .card_yellow {
-  background-color: #FFD369;
+  background-color: #14FFEC;
 }
 
 .card_primary {
-  background-color: #39A9CB;
+  background-color: #0D7377;
 }
 
 .card_pink {
@@ -238,28 +234,33 @@ body hr {
 
 .anchor {
   text-decoration: none;
-  color: white !important;
   letter-spacing: 1px;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 16px;
+  color: #EEEEEE;
+  width: 180px;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 .anchor:hover {
-  color: #FFD369;
+  color: #14FFEC;
+  text-decoration: none;
+  background-color: #323232;
 }
 
-.avatar {
-  width: 80px;
-  height: 80px;
+.avatar img {
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
 .brand {
   font-weight: 700;
   letter-spacing: 1px;
-  color: #FFD369;
+  color: #14FFEC;
   font-size: 26px;
 }
 

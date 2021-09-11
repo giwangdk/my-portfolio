@@ -5,10 +5,10 @@ import PropTypes from 'prop-types'
 import styles from './_style.scss'
 
 const Anchor = (props) => {
-    const { classNames, children, href } = props
+    const { className, children, href } = props
     const classProps = classnames(
         styles.anchor,
-        classNames
+        className
     )
     return (
         <a className={classProps} href={href}>{children}</a>
@@ -16,13 +16,13 @@ const Anchor = (props) => {
 }
 
 Anchor.propTypes = {
-    classNames : PropTypes.string,
+    className : PropTypes.string,
     children: PropTypes.string,
     href:PropTypes.string
 }
 
 Anchor.defaultProps = {
-    classNames :'',
+    className :'',
     children : '',
     href:'#'
 }

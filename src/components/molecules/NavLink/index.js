@@ -7,30 +7,31 @@ import Title from '../../atoms/Title'
 import Anchor from '../../atoms/Anchor'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './_style.scss'
-import  '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 const NavLink = (props) => {
     const { className, title, anchor } = props;
     return (
         <div className={classnames(styles.block_heading, className)}>
-            <ul>
-                <li className="nav link">
-                    <i class="fas fa-home"></i><Anchor className="anchor" href="#home">Home</Anchor>
+            <ul className="d-flex flex-column justify-content-between"> 
+                <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#home"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Home</Anchor>
                 </li>
-                <li className="nav link">
-                    <Anchor className="anchor" href="#about">About</Anchor>
+                <li className="nav link mt-3 mt-2">
+                    <Anchor className="anchor" href="#about"><FontAwesomeIcon icon={ faHome} className="mr-3"/>About</Anchor>
                 </li>
-                <li className="nav link">
-                    <Anchor className="anchor" href="#experience">Experience</Anchor>
+                <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#experience"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Experience</Anchor>
                 </li>
-                <li className="nav link">
-                    <Anchor className="anchor" href="#works">Works</Anchor>
+                <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#works"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Works</Anchor>
                 </li>
-                <li className="nav link">
-                    <Anchor className="anchor" href="#skills">Skills</Anchor>
+                <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#skills"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Skills</Anchor>
                 </li>
-                <li className="nav link">
-                    <Anchor className="anchor" href="#interest">Interest</Anchor>
+                <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#interest"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Interest</Anchor>
                 </li>
         </ul>
     </div>
