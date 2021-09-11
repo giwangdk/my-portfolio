@@ -4,20 +4,29 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 
 import Nav from '../../organism/Nav'
-import Footer from '../../organism/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-const Layout = ({children}) => {
-    
-    return (
-        <>
-        <Nav />
-            {children }
-        <Footer/>
-            </>
-)
+class Layout extends React.Component{
 
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <div className="row">
+                <div className="col-4">
+                    <Nav/>
+                </div>
+                <div className="col-8">
+                    <div className="container">
+                        {this.props.children}
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }
 
 Layout.propTypes = {
