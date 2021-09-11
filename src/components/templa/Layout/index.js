@@ -15,12 +15,12 @@ class Layout extends React.Component{
 
     render() {
         return (
-            <div className="row">
-                <div className="col-4">
+            <div className="row w-100">
+                <div className="col-3 fixed left-0">
                     <Nav/>
                 </div>
-                <div className="col-8">
-                    <div className="container">
+                <div className="col-9">
+                    <div className="container-fluid">
                         {this.props.children}
                     </div>
                 </div>

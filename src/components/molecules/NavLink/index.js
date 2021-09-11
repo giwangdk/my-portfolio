@@ -15,9 +15,6 @@ const NavLink = (props) => {
     return (
         <div className={classnames(styles.block_heading, className)}>
             <ul className="d-flex flex-column justify-content-between"> 
-                <li className="nav link mt-3">
-                    <Anchor className="anchor" href="#home"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Home</Anchor>
-                </li>
                 <li className="nav link mt-3 mt-2">
                     <Anchor className="anchor" href="#about"><FontAwesomeIcon icon={ faHome} className="mr-3"/>About</Anchor>
                 </li>
