@@ -1,0 +1,15 @@
+@import '../../../dist/css/variables' ;
+
+.anchor{
+    text-decoration: none;
+    color: white !important;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 50px;
+    
+
+    &:hover{
+        color: $yellow;
+
+    }
+}

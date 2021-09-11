@@ -1,0 +1,178 @@
+@import '../../../dist/css/variables';
+
+.button{
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color:white;
+
+    &-black{
+        background-color: $black;
+    }
+
+    &-light-black{
+        background-color: $light-black;
+    }
+
+    &-teal{
+        background-color: $teal;
+    }
+
+    &-grey{
+        background-color: $grey;
+        color: $black;
+    }
+    
+    &-dark-teal{
+        background-color: $dark-teal;
+    }
+    &-pink{
+        background-color: $pink;
+    }
+}
+
+.soft{
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    opacity:0.4;
+
+    &-black{
+        background-color: $black;
+        color: $black;
+    }
+
+    &-light-black{
+        background-color: $light-black;
+        color: $light-black;
+    }
+
+    &-teal{
+        background-color: $teal;
+        color: $teal;
+        
+    }
+
+    &-grey{
+        background-color: $grey;
+        color: $grey;
+    }
+    
+    &-dark-teal{
+        background-color: $dark-teal;
+        color: $dark-teal;
+    }
+    &-pink{
+        background-color: $pink;
+        color: $pink;
+    }
+}
+
+.outline{
+    -webkit-appearance: none;
+    outline: 0;
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+
+    &-black{
+        color: $black;
+        border: 1px solid $black;
+        &:hover{
+            background-color: $black;
+        }
+    }
+
+    &-light-black{
+        color: $light-black;
+        border: 1px solid $light-black;
+        &:hover{
+            background-color: $light-black;
+        }
+    }
+
+    &-teal{
+        color: $teal;
+        border: 1px solid $teal;
+        &:hover{
+            background-color: $teal;
+        }
+        
+    }
+
+    &-grey{
+        color: $grey;
+        border: 1px solid $grey;
+        &:hover{
+            background-color: $grey;
+        }
+    }
+    
+    &-dark-teal{
+        color: $dark-teal;
+        border: 1px solid $dark-teal;
+        &:hover{
+            background-color: $dark-teal;
+        }
+    }
+
+    &-pink{
+        color: $pink;
+        border: 1px solid $pink;
+        &:hover{
+            background-color: $pink;
+        }
+    }
+}
+
+
+
+/* Size */
+.small {
+    padding: 0.5em 0.6em;
+}
+
+.medium {
+    padding: 1.1em 1.3em;
+}
+  
+.large {
+    padding: 1.7em 2.4em;
+}
+
+  /* Theme */
+.default {
+    border-radius:0px;
+}
+  
+.rounded {
+    border-radius:5px;
+}
+
+.pill{
+    border-radius:20px;
+}
+  
+  /* Disabled */
+  .disabled {
+    color: var(--grey-2);
+    background: color(var(--grey-4) tint(40%));
+    border-color: var(--grey-4);
+    cursor: default;
+  }

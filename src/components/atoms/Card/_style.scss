@@ -1,0 +1,26 @@
+@import '../../../dist/css/variables';
+
+
+.card {
+    border-radius: 18px;
+    padding: 10px;
+    border: none;
+
+    &_dark{
+        background-color: $black;
+    }
+    &_light{
+        background-color: $light-black;
+    }
+    &_yellow{
+        background-color: $yellow;
+    }
+    &_primary{
+        background-color: $primary;
+    }
+    &_pink{
+        background-color: $pink;
+    }
+
+}
+

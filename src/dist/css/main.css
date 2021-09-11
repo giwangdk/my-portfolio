@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300;1,500;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #222831 !important;
+  color: #EEEEEE !important;
+}
+
+body hr {
+  color: #FFD369;
+}
+
+.button {
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+.button-black {
+  background-color: #222831;
+}
+
+.button-light-black {
+  background-color: #393E46;
+}
+
+.button-yellow {
+  background-color: #FFD369;
+}
+
+.button-grey {
+  background-color: #EEEEEE;
+  color: #222831;
+}
+
+.button-primary {
+  background-color: #39A9CB;
+}
+
+.button-pink {
+  background-color: #F95959;
+}
+
+.soft {
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.4;
+}
+
+.soft-black {
+  background-color: #222831;
+  color: #222831;
+}
+
+.soft-light-black {
+  background-color: #393E46;
+  color: #393E46;
+}
+
+.soft-yellow {
+  background-color: #FFD369;
+  color: #FFD369;
+}
+
+.soft-grey {
+  background-color: #EEEEEE;
+  color: #EEEEEE;
+}
+
+.soft-primary {
+  background-color: #39A9CB;
+  color: #39A9CB;
+}
+
+.soft-pink {
+  background-color: #F95959;
+  color: #F95959;
+}
+
+.outline {
+  -webkit-appearance: none;
+  outline: 0;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+}
+
+.outline-black {
+  color: #222831;
+  border: 1px solid #222831;
+}
+
+.outline-black:hover {
+  background-color: #222831;
+}
+
+.outline-light-black {
+  color: #393E46;
+  border: 1px solid #393E46;
+}
+
+.outline-light-black:hover {
+  background-color: #393E46;
+}
+
+.outline-yellow {
+  color: #FFD369;
+  border: 1px solid #FFD369;
+}
+
+.outline-yellow:hover {
+  background-color: #FFD369;
+}
+
+.outline-grey {
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+}
+
+.outline-grey:hover {
+  background-color: #EEEEEE;
+}
+
+.outline-primary {
+  color: #39A9CB;
+  border: 1px solid #39A9CB;
+}
+
+.outline-primary:hover {
+  background-color: #39A9CB;
+}
+
+.outline-pink {
+  color: #F95959;
+  border: 1px solid #F95959;
+}
+
+.outline-pink:hover {
+  background-color: #F95959;
+}
+
+/* Size */
+.small {
+  padding: 0.5em 0.6em;
+}
+
+.medium {
+  padding: 1.1em 1.3em;
+}
+
+.large {
+  padding: 1.7em 2.4em;
+}
+
+/* Theme */
+.default {
+  border-radius: 0px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.pill {
+  border-radius: 20px;
+}
+
+/* Disabled */
+.disabled {
+  color: var(--grey-2);
+  background: color(var(--grey-4) tint(40%));
+  border-color: var(--grey-4);
+  cursor: default;
+}
+
+.card {
+  border-radius: 18px;
+  padding: 10px;
+  border: none;
+}
+
+.card_dark {
+  background-color: #222831;
+}
+
+.card_light {
+  background-color: #393E46;
+}
+
+.card_yellow {
+  background-color: #FFD369;
+}
+
+.card_primary {
+  background-color: #39A9CB;
+}
+
+.card_pink {
+  background-color: #F95959;
+}
+
+.title {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #EEEEEE;
+}
+
+.subtitle {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #EEEEEE;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white !important;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.anchor:hover {
+  color: #FFD369;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #FFD369;
+  font-size: 26px;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
