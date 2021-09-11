@@ -14,7 +14,7 @@ class About extends React.Component{
         return (
             <div id="about">
                 <Block className="d-flex flex-column justify-content-center  block" title="About Us">
-                <Card className="card">
+                <Card className="card p-3">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eaque corrupti mollitia porro libero. Perferendis aspernatur inventore numquam odio nulla.</p>
                 </Card>
             </Block>
