@@ -22,6 +22,9 @@ const NavLink = (props) => {
                     <Anchor className="anchor" href="#experience"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Experience</Anchor>
                 </li>
                 <li className="nav link mt-3">
+                    <Anchor className="anchor" href="#education"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Education</Anchor>
+                </li>
+                <li className="nav link mt-3">
                     <Anchor className="anchor" href="#works"><FontAwesomeIcon icon={ faHome} className="mr-3"/>Works</Anchor>
                 </li>
                 <li className="nav link mt-3">
