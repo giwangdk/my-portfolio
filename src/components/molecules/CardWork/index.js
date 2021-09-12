@@ -12,21 +12,22 @@ import Badge from '../../atoms/Badge'
 
 
 const CardWork = (props) => {
-    const { src,alt, name, desc, webiste, code } = props
+    const { src,alt, name, desc, website, code } = props
     return (
-        <Card className="card">
-            <div className="card-header">
+            <Card className="card">
+            <div className="card-header p-0">
                 <Image src={src} className="image" alt={alt}/>
             </div>
-            <div className="body">
-                <Text className="text">{name}</Text>
+            <div className="body p-0">
+                <h5 className="my-3">{name}</h5>
                 <Text className="text">{desc}</Text>
             </div>
-            <div className="card-footer">
-                <Button className="button button-teal rounded medium" href={webiste}>Visit Website</Button>
-                <Button className="ouline ouline-teal rounded medium" href={code}>Code</Button>
+            <div className="card-footer p-0 d-flex justify-content-between">
+                <Button className="button button-teal pill medium " href={website}>Visit Website</Button>
+                <Button className="outline outline-teal pill medium " href={code}>Code</Button>
             </div>
-        </Card>
+        </Card> 
+        
     )
 }
 
