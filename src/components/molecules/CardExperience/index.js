@@ -25,7 +25,7 @@ const CardExperience = (props) => {
                 </div>
             </div>
             <div className="card-body">
-                <h3>{company}</h3>
+                <h4>{company}</h4>
                 <Text className="text">{desc}</Text>
             </div>
         </Card>
