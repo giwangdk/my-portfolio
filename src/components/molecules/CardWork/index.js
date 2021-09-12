@@ -8,7 +8,6 @@ import Card from '../../atoms/Card'
 import Image from '../../atoms/Image'
 import Text from '../../atoms/Text'
 import Button from '../../atoms/Button'
-import Badge from '../../atoms/Badge'
 
 
 const CardWork = (props) => {

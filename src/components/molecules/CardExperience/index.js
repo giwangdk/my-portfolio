@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from '../../atoms/Card'
 import Year from '../../atoms/Year'
 import Text from '../../atoms/Text'
-import Subtitle from '../../atoms/Subtitle'
 
 
 const CardExperience = (props) => {

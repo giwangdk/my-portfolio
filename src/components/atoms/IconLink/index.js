@@ -2,7 +2,6 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './_style.scss'
 import Anchor from '../Anchor'
 import classnames from 'classnames'
 

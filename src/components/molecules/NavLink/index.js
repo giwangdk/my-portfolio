@@ -3,7 +3,6 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 
-import Title from '../../atoms/Title'
 import Anchor from '../../atoms/Anchor'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './_style.scss'
@@ -11,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 const NavLink = (props) => {
-    const { className, title, anchor } = props;
+    const { className } = props;
     return (
         <div className={classnames(styles.nav_link, className)}>
             <ul className="d-flex flex-column justify-content-between"> 
@@ -40,16 +39,12 @@ const NavLink = (props) => {
 }
 
 NavLink.propTypes = {
-    className: PropTypes.string,
-    title: PropTypes.string,
-    anchor:PropTypes.string
+    className: PropTypes.string
 }
 
 
 NavLink.defaultProps = {
-    className: '',
-    title: '',
-    anchor:''
+    className: ''
 }
 
 export default NavLink

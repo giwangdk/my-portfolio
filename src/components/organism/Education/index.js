@@ -1,12 +1,10 @@
 /* @flow */
 import * as React from 'react'
-import PropTypes from 'prop-types'
 
 
 import Block from '../../molecules/Block'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
 import  '@fortawesome/free-solid-svg-icons'
 import CardEducation from '../../molecules/CardEducation'
 

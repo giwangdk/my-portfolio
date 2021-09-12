@@ -1,12 +1,10 @@
 /* @flow */
 import * as React from 'react'
-import PropTypes from 'prop-types'
 
 
 import Block from '../../molecules/Block'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
 import  '@fortawesome/free-solid-svg-icons'
 import CardExperience from '../../molecules/CardExperience'
 
@@ -56,17 +54,5 @@ class Experience extends React.Component{
     }
 }
 
-Experience.propTypes = {
-    className: PropTypes.string,
-    title: PropTypes.string,
-    anchor:PropTypes.string
-}
-
-
-Experience.defaultProps = {
-    className: '',
-    title: '',
-    anchor:''
-}
 
 export default Experience

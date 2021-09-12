@@ -7,7 +7,6 @@ import giwang from '../../../images/giwang.jpg'
 import Avatar from '../../atoms/Avatar'
 import NavLink from '../../molecules/NavLink'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
 import  '@fortawesome/free-solid-svg-icons'
 
 class Nav extends React.Component{

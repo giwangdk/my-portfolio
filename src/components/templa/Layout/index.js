@@ -9,10 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Layout extends React.Component{
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="row w-100">

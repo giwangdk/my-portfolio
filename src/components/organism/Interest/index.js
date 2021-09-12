@@ -1,17 +1,13 @@
 /* @flow */
 import * as React from 'react'
-import PropTypes from 'prop-types'
 
 
 import Block from '../../molecules/Block'
-import SosmedIcon from '../../molecules/SosmedIcon'
 import Card from '../../atoms/Card'
 import Text from '../../atoms/Text'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from './_style.scss'
 import  '@fortawesome/free-solid-svg-icons'
-import Button from '../../atoms/Button'
 
 class Interest extends React.Component{
     render() {
