@@ -6,6 +6,7 @@ import Experience from '../components/organism/Experience'
 import Work from '../components/organism/Work'
 import Interest from '../components/organism/Interest'
 import Education from '../components/organism/Education'
+import Skill from '../components/organism/Skill'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -18,7 +19,8 @@ class Home extends Component{
                     <Experience />
                     <Education/>
                     <Work />
-                    <Interest/>
+                    <Skill/>
+                    <Interest />
             </Layout>
             </div>
         )
