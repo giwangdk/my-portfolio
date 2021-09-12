@@ -5,6 +5,7 @@ import About from '../components/organism/About'
 import Experience from '../components/organism/Experience'
 import Work from '../components/organism/Work'
 import Interest from '../components/organism/Interest'
+import Education from '../components/organism/Education'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -15,6 +16,7 @@ class Home extends Component{
                 <Layout>
                     <About />
                     <Experience />
+                    <Education/>
                     <Work />
                     <Interest/>
             </Layout>
