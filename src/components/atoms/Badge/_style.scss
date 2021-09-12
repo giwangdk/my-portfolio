@@ -1,0 +1,38 @@
+@import '../../../dist/css/variables';
+
+.badge{
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color:white;
+
+    &-black{
+        background-color: $black;
+    }
+
+    &-light-black{
+        background-color: $light-black;
+    }
+
+    &-teal{
+        background-color: $teal;
+    }
+
+    &-grey{
+        background-color: $grey;
+        color: $black;
+    }
+    
+    &-dark-teal{
+        background-color: $dark-teal;
+    }
+    &-pink{
+        background-color: $pink;
+    }
+}

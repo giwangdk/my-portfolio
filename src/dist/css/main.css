@@ -17,6 +17,7 @@ body {
   -webkit-appearance: none;
   border: 0;
   outline: 0;
+  display: block;
   font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
@@ -195,7 +196,7 @@ body {
 
 .card {
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
   border: none;
 }
 
@@ -226,8 +227,7 @@ body {
 }
 
 .subtitle {
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 400;
   color: #EEEEEE;
 }
 

@@ -7,9 +7,9 @@ import styles from './_style.scss'
 
 
 const Image = (props) => {
-    const { src, alt, classNames} = props;
+    const { src, alt, className} = props;
     return (
-        <img src={src} alt={alt} className={classnames(styles.image, classNames)} />
+        <img src={src} alt={alt} className={classnames(styles.image, className)} />
     )
 }
 

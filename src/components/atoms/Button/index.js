@@ -47,7 +47,7 @@ export const ButtonSize = {
 
 
 const Button = (props) => {
-    const { type, theme, variant, size, children, className, disabled, onClick } = props
+    const { type, theme, variant, size, children, className, disabled, onClick, href } = props
     const classProps = classnames(
         styles.button,
         styles.soft,
@@ -63,9 +63,9 @@ const Button = (props) => {
     )
 
     return (
-        <button onClick={onClick} type={type} disabled={disabled} className={classProps}>
+        <a onClick={onClick} type={type} disabled={disabled} className={classProps} href={href}>
             {children}
-        </button>
+        </a>
     )
 }
 
@@ -79,6 +79,7 @@ Button.propTypes = {
     onClick:PropTypes.func,
     children: PropTypes.node,
     className: PropTypes.string,
+    href: PropTypes.string,
     disabled:PropTypes.bool
 }
 
@@ -89,6 +90,7 @@ Button.defaultProps = {
     size: ButtonSize.MEDIUM,
     onClick: () => { },
     className: '',
+    href: '',
     disabled: false
 }
 

@@ -11,19 +11,44 @@ import  '@fortawesome/free-solid-svg-icons'
 import CardExperience from '../../molecules/CardExperience'
 
 class Experience extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state: [{
-            experience: {
-                role:""
-            }
-        }]
-    }
+        
+    
     render() {
+        const experiences = [
+            {
+                role: "Laboratory Chief Asistant",
+                year: "2019",
+                company: "Laboratorium Sistem Informasi Univesitas Gunadarma",
+                desc: "Lead and activate all laboratory activities"
+            },
+            {
+                role: "Front End Engineer Intern",
+                year: "2020",
+                company: "Digitiket",
+                desc: "Converting and slicing desain UI/UX into usable web presence with HTML, JavaScript, Framework CSS"
+            },
+            {
+                role: "Web Developer Intern",
+                year: "2021",
+                company: "Gosocial",
+                desc: "Developed user interfaces with modern PHP frameworks, HTML5 and CSS3."
+            },
+            {
+                role: "Front End enginner Specialist Intern",
+                year: "2021",
+                company: "Sagara Technology",
+                desc: "Developed user interfaces with modern Javascript frameworks, HTML5 and CSS3."
+            },
+        ]
+
         return (
             <div id="experience">
                 <Block className="d-flex flex-column justify-content-center  block" title="Experience">
-                    <CardExperience subtitle="Front End Developer" year="2020 - 2021" company="Digitiket" desc="lorem" />
+                    {
+                        experiences.map((experience) => (
+                            <CardExperience subtitle={experience.role} year={experience.year} company={experience.company} desc={experience.desc} key={ experience.role}/>)
+                        )
+                    }
             </Block>
             </div>
             

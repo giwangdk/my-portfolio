@@ -13,19 +13,19 @@ import Subtitle from '../../atoms/Subtitle'
 const CardExperience = (props) => {
     const { subtitle, year, company, desc} = props
     return (
-        <Card className="card">
+        <Card className="card mt-3">
             <div className="card-header">
                 <div className="row">
                     <div className="col-8">            
-                        <Subtitle className="subtitle">{ subtitle}</Subtitle>
+                        <h6 className="subtitle">{ subtitle}</h6>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 text-right">
                         <Year className="year">{year}</Year>
                     </div>
                 </div>
             </div>
             <div className="card-body">
-                <h4>{company}</h4>
+                <Text>{company}</Text>
                 <Text className="text">{desc}</Text>
             </div>
         </Card>
@@ -34,9 +34,9 @@ const CardExperience = (props) => {
 
 CardExperience.propTypes = {
     subtitle: PropTypes.string,
-    year: PropTypes.string.isRequired,
-    company:PropTypes.string.isRequired,
-    desc:PropTypes.string.isRequired,
+    year: PropTypes.string,
+    company:PropTypes.string,
+    desc:PropTypes.string,
 }
 
 CardExperience.defaultProps = {
