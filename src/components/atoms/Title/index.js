@@ -5,20 +5,22 @@ import PropTypes from 'prop-types'
 import styles from './_style.scss';
 
 const Title = (props) => {
-    const { className, children } = props
+    const { className, children, color } = props
     return (
-        <h1 className={classnames(styles.title, className)}>{children}</h1>
+        <h1 className={classnames(styles.title, className)} >{children}</h1>
     )
 }
 
 Title.propTypes = {
     className : PropTypes.string,
-    children : PropTypes.string
+    children: PropTypes.string,
+    color: PropTypes.string
 }
 
 Title.defaultProps = {
     className : '',
-    children : ''
+    children : '',
+    color:''
 }
 
 export default Title

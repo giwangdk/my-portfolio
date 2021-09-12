@@ -6,15 +6,9 @@
     font-weight: 800;
     font-size:16px;
     color: $grey;
-    width: 180px;
-    border-radius: 5px;
-    padding: 8px;
     
-
     &:hover{
-        color: $teal;
         text-decoration: none;
-        background-color: $light-black;
-
+        color: $teal;
     }
 }

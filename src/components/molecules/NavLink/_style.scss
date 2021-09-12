@@ -1,5 +1,18 @@
 @import '../../../dist/css/variables';
 
-.block {
-    font-weight: 500;
+.nav_link {
+
+    li{
+        width: 180px;
+        border-radius: 5px;
+        padding: 8px;
+    
+
+    &:hover{
+        color: $teal;
+        text-decoration: none;
+        background-color: $light-black;
+
+    }
+    }
 }
